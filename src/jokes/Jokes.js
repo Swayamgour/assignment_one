@@ -62,7 +62,7 @@ function Jokes() {
             </div>
             <div>
                 {list.map((item, i) =>
-                    <span  key={i} className='categories'><button style={{ color: 'black', border: '1px solid black', marginBottom: '40px' }} onClick={() => handleClickOpen(item)} className='jokes_button'>{item}  <p style={{ fontSize: '12px', marginRight: '0%', marginTop: '10%' }}>Unlimited Jokes On {item}</p></button> </span>
+                    <span  key={i} className='categories'><button style={{ color: 'black', border: '1px solid black', marginBottom: '40px' }} onClick={() => handleClickOpen(item)} className='jokes_button'>{item}  <p className='cardPtag' style={{ fontSize: '12px', marginRight: '0%', marginTop: '10%' }}>Unlimited Jokes On {item}</p></button> </span>
 
                 )}
             </div>
