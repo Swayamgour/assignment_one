@@ -36,14 +36,14 @@ body{
 }
 
 .jokes_button {
-    text-align: center;
+    /* text-align: center; */
     width: 18%;
-    /* height: 30vh; */
-    /* font-size: 20px; */
-    /* margin-bottom: 40px; */
-    /* border-radius: 10px; */
-    /* border: none; */
-    /* cursor: pointer; */
+    height: 30vh;
+    font-size: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
 }
 
 /* .jokes_button:hover {
