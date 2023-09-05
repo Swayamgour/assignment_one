@@ -1,0 +1,56 @@
+.animation-container {
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    color: rgba(6, 11, 4, 0.438);
+}
+
+.up-down-animation {
+    animation: upDown 2s linear infinite;
+}
+
+@keyframes upDown {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+body{
+    background: linear-gradient(to right , #949494 , rgb(203, 94, 94));
+}
+
+.categories {
+    /* display:unset;
+    justify-content: right; */
+    margin-left: 5%;
+    /* margin-top: 100%; */
+    /* border: 1px solid black; */
+
+
+
+}
+
+.jokes_button {
+    text-align: center;
+    width: 18%;
+    /* height: 30vh; */
+    /* font-size: 20px; */
+    /* margin-bottom: 40px; */
+    /* border-radius: 10px; */
+    /* border: none; */
+    /* cursor: pointer; */
+}
+
+/* .jokes_button:hover {
+    transform: scale(2);
+} */
+
+.jokes_button:active {
+    background-color: white;
+
+}
